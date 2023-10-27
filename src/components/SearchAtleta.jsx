@@ -25,10 +25,12 @@ const SearchAtleta = () => {
       navigate(`/editAtleta/${atleta.id}`);
     }
   };
-
   const fetchData = () => {
     if (searchTerm) {
-      fetch(`http://localhost:8080/atleti/search?nome=${searchTerm}`)
+      // Modifica l'URL delle chiamate API per utilizzare il tuo server Heroku
+      fetch(
+        `https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/search?nome=${searchTerm}`
+      )
         .then((response) => {
           if (!response.ok) {
             throw new Error("Errore durante la chiamata API");

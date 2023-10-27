@@ -19,7 +19,9 @@ const InsertAtleta = () => {
   });
 
   useEffect(() => {
-    fetch("http://localhost:8080/atleti/tipoAbbonamento")
+    fetch(
+      "https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/tipoAbbonamento"
+    )
       .then((response) => {
         if (!response.ok) {
           throw new Error("Errore nella chiamata API");
@@ -48,14 +50,18 @@ const InsertAtleta = () => {
     if (!userConfirmed) {
       return;
     }
+
     try {
-      const response = await fetch("http://localhost:8080/atleti", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://iscrizioni-pugilistica-backend.herokuapp.com/atleti",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (!response.ok) {
         const errorData = await response.json();

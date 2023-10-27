@@ -16,15 +16,14 @@ const EditAtleta = () => {
     dataScadenzaAbbonamento: "",
     dataVisita: "",
     dataScadenzaVisita: "",
-    dataInizioElettroencefalogramma: "", // Aggiunto
-    dataFineElettroencefalogramma: "", // Aggiunto
+    dataInizioElettroencefalogramma: "",
+    dataFineElettroencefalogramma: "",
   });
 
   const [tipiAbbonamento, setTipiAbbonamento] = useState([]);
 
   useEffect(() => {
-    // Recupera i dettagli dell'atleta
-    fetch(`http://localhost:8080/atleti/${id}`)
+    fetch(`https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setFormData({
@@ -42,8 +41,9 @@ const EditAtleta = () => {
         });
       });
 
-    // Recupera i tipi di abbonamento
-    fetch(`http://localhost:8080/atleti/tipoAbbonamento`)
+    fetch(
+      `https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/tipoAbbonamento`
+    )
       .then((response) => response.json())
       .then((data) => setTipiAbbonamento(data));
   }, [id]);
@@ -56,19 +56,21 @@ const EditAtleta = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Chiedi all'utente se è sicuro di voler procedere con la modifica
     const isConfirmed = window.confirm(
       "Sei sicuro di voler procedere con la modifica?"
     );
 
     if (isConfirmed) {
-      fetch(`http://localhost:8080/atleti/${id}`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      })
+      fetch(
+        `https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/${id}`,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      )
         .then((response) => {
           if (response.ok) {
             return response.json();
@@ -88,7 +90,6 @@ const EditAtleta = () => {
         });
     }
   };
-
   return (
     <>
       {" "}
