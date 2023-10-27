@@ -1,0 +1,7 @@
+.searchAtletaCard {
+  transition: transform 0.2s; /* Animazione */
+}
+
+.searchAtletaCard:hover {
+  transform: scale(1.52); /* Zoom al passaggio del mouse */
+}
