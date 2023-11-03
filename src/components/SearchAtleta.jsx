@@ -29,7 +29,7 @@ const SearchAtleta = () => {
     if (searchTerm) {
       // Modifica l'URL delle chiamate API per utilizzare il tuo server Heroku
       fetch(
-        `https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/search?nome=${searchTerm}`
+        ` https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/search?nome=${searchTerm}`
       )
         .then((response) => {
           if (!response.ok) {

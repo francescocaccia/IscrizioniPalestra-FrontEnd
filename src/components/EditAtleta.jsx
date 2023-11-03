@@ -23,7 +23,9 @@ const EditAtleta = () => {
   const [tipiAbbonamento, setTipiAbbonamento] = useState([]);
 
   useEffect(() => {
-    fetch(`https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/${id}`)
+    fetch(
+      ` https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/${id}`
+    )
       .then((response) => response.json())
       .then((data) => {
         setFormData({
@@ -42,7 +44,7 @@ const EditAtleta = () => {
       });
 
     fetch(
-      `https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/tipoAbbonamento`
+      ` https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/tipoAbbonamento`
     )
       .then((response) => response.json())
       .then((data) => setTipiAbbonamento(data));
@@ -62,7 +64,7 @@ const EditAtleta = () => {
 
     if (isConfirmed) {
       fetch(
-        `https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/${id}`,
+        ` https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/${id}`,
         {
           method: "PUT",
           headers: {

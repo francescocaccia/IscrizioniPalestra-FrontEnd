@@ -20,7 +20,7 @@ const InsertAtleta = () => {
 
   useEffect(() => {
     fetch(
-      "https://iscrizioni-pugilistica-backend.herokuapp.com/atleti/tipoAbbonamento"
+      " https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/tipoAbbonamento"
     )
       .then((response) => {
         if (!response.ok) {
@@ -53,7 +53,7 @@ const InsertAtleta = () => {
 
     try {
       const response = await fetch(
-        "https://iscrizioni-pugilistica-backend.herokuapp.com/atleti",
+        " https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti",
         {
           method: "POST",
           headers: {
