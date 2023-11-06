@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
-      <Navbar bg="danger" data-bs-theme="dark">
+      <Navbar bg="warning" data-bs-theme="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">
             Pugilistica Fabrianese
@@ -16,6 +16,9 @@ const NavBar = () => {
             </Nav.Link>
             <Nav.Link as={Link} to="/insertAtleta">
               Inserisci Atleta
+            </Nav.Link>
+            <Nav.Link as={Link} to="/searchAtleta">
+              Cerca Atleta
             </Nav.Link>
             {/* Aggiungi ulteriori Link per altre pagine se necessario */}
           </Nav>

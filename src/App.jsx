@@ -7,6 +7,7 @@ import SearchAtleta from "./components/SearchAtleta";
 import InsertAtleta from "./components/InsertAtleta";
 import NavBar from "./components/NavBar";
 import EditAtleta from "./components/EditAtleta";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<SearchAtleta />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/searchAtleta" element={<SearchAtleta />} />
           <Route path="/insertAtleta" element={<InsertAtleta />} />
           <Route path="/editAtleta/:id" element={<EditAtleta />} />
         </Routes>
