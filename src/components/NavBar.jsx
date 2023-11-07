@@ -5,7 +5,14 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
-      <Navbar bg="warning" data-bs-theme="dark">
+      <Navbar
+        data-bs-theme="dark"
+        className="sticky-top navbar-custom"
+        style={{
+          borderBottom: "15px solid black",
+          borderTop: "15px solid black",
+        }}
+      >
         <Container>
           <Navbar.Brand as={Link} to="/">
             Pugilistica Fabrianese

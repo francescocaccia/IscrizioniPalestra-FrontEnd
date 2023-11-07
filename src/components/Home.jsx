@@ -1,5 +1,5 @@
 import React from "react";
-
+import KoFermo from "../k.o fermo.jpg";
 function Home() {
   return (
     <div className="App">
@@ -43,7 +43,7 @@ function Home() {
           </div>
           <div className="col-lg-6">
             <img
-              src="https://tse2.mm.bing.net/th?id=OIP.wyL0biGFvTjw8u6ZXwI3oQHaE8&pid=Api&P=0&h=180"
+              src={KoFermo}
               alt="Boxing Ring"
               className="img-fluid rounded-circle"
             />

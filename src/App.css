@@ -5,3 +5,9 @@
 .searchAtletaCard:hover {
   transform: scale(1.52); /* Zoom al passaggio del mouse */
 }
+
+.navbar-custom {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  background-color: #f2e304; /* Sostituisci con il tuo colore giallo chiaro */
+}
