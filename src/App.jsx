@@ -8,6 +8,8 @@ import InsertAtleta from "./components/InsertAtleta";
 import NavBar from "./components/NavBar";
 import EditAtleta from "./components/EditAtleta";
 import Home from "./components/Home";
+// In App.jsx o main.jsx
+import "./App.css";
 
 function App() {
   return (

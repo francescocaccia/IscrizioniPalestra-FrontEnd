@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button, Col, Container, Row, Form } from "react-bootstrap";
-
+const endpoint = "http://localhost:8080";
 const InsertAtleta = () => {
   const [tipiAbbonamento, setTipiAbbonamento] = useState([]);
 
@@ -19,9 +19,7 @@ const InsertAtleta = () => {
   });
 
   useEffect(() => {
-    fetch(
-      " https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/tipoAbbonamento"
-    )
+    fetch(endpoint + "/atleti/tipoAbbonamento")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Errore nella chiamata API");
@@ -52,16 +50,13 @@ const InsertAtleta = () => {
     }
 
     try {
-      const response = await fetch(
-        " https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch(endpoint + "/atleti", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
       if (!response.ok) {
         const errorData = await response.json();

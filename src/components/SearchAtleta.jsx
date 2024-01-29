@@ -10,7 +10,7 @@ import { format } from "date-fns";
 import "bootstrap/dist/css/bootstrap.min.css";
 import EditAtleta from "./EditAtleta";
 import { useNavigate } from "react-router-dom";
-
+const endpoint = "http://localhost:8080";
 const SearchAtleta = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [atleti, setAtleti] = useState([]);
@@ -28,9 +28,7 @@ const SearchAtleta = () => {
   const fetchData = () => {
     if (searchTerm) {
       // Modifica l'URL delle chiamate API per utilizzare il tuo server Heroku
-      fetch(
-        ` https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/search?nome=${searchTerm}`
-      )
+      fetch(endpoint + `/atleti/search?nome=${searchTerm}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error("Errore durante la chiamata API");

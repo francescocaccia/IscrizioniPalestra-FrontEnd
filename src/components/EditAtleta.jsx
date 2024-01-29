@@ -20,12 +20,12 @@ const EditAtleta = () => {
     dataFineElettroencefalogramma: "",
   });
 
+  const endpoint = "http://localhost:8080";
+  //https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com
   const [tipiAbbonamento, setTipiAbbonamento] = useState([]);
 
   useEffect(() => {
-    fetch(
-      `https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/${id}`
-    )
+    fetch(endpoint + `/atleti/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setFormData({
@@ -43,9 +43,7 @@ const EditAtleta = () => {
         });
       });
 
-    fetch(
-      `https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/tipoAbbonamento`
-    )
+    fetch(endpoint + `/atleti/tipoAbbonamento`)
       .then((response) => response.json())
       .then((data) => setTipiAbbonamento(data));
   }, [id]);
@@ -63,16 +61,13 @@ const EditAtleta = () => {
     );
 
     if (isConfirmed) {
-      fetch(
-        `https://iscrizioni-pugilistica-backend-e83ee638be60.herokuapp.com/atleti/${id}`,
-        {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      )
+      fetch(endpoint + `/atleti/${id}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
         .then((response) => {
           if (response.ok) {
             return response.json();
