@@ -1,7 +1,7 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from "../logo.jpg";
+import LogoCompleto from "../logoCompleto.png";
 const NavBar = () => {
   return (
     <>
@@ -15,24 +15,22 @@ const NavBar = () => {
             "linear-gradient(to right, rgba(255, 255, 0, 0.5), rgba(0, 0, 0, 0.5))", // Gradiente trasparente da giallo a nero
         }}
       >
-        <Nav className="justify-content-center w-100">
-          <Nav.Link as={Link} to="/">
-            Home
-          </Nav.Link>
+        <Nav className="d-flex justify-content-center align-items-center w-100">
           {/* Altri link a sinistra */}
 
           <Nav.Item className="mx-auto">
-            <Navbar.Brand as={Link} to="/">
-              <div>
-                <img
-                  src={Logo}
-                  alt="Logo della Pugilistica Fabrianese"
-                  className="logo-image-navbar"
-                />
-              </div>
+            <Navbar.Brand as={Link} to="/" className="mx-auto">
+              <img
+                src={LogoCompleto}
+                alt="Logo della Pugilistica Fabrianese"
+                className="logo-image-navbar"
+                style={{ width: "150px", height: "80px" }} // Imposta la larghezza a 150 pixel
+              />
             </Navbar.Brand>
           </Nav.Item>
-
+          <Nav.Link as={Link} to="/">
+            Galleria
+          </Nav.Link>
           {/* Inserisci qui i link a destra */}
           {/* Esempio: <Nav.Link as={Link} to="/another-page">Altra Pagina</Nav.Link> */}
         </Nav>

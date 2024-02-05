@@ -1,20 +1,22 @@
 import React from "react";
-import KoFermo from "../k.o fermo.jpg";
-import Logo from "../logo.jpg";
 import MyMap from "./MyMap";
 import "leaflet/dist/leaflet.css";
 import { Container } from "react-bootstrap";
 import MyCarousel from "./MyCarousel";
+import LogoApe from "../apepugi.png";
 
 function Home() {
   return (
     <div className="home">
       <div className="fixed-background text-center">
-        <Container>
-          <div className="custom-carousel-container">
-            <MyCarousel />
-          </div>
-        </Container>
+        <img
+          className="d-block mx-auto w-10 custom-img-size"
+          src={LogoApe}
+          alt="Boxing Ring"
+        />
+        <span className="custom-carousel-container ">
+          <MyCarousel />
+        </span>
         <h3 className="text-white">
           La Pugilistica Fabrianese è un incrocio dove mente e corpo si
           incontrano, rivelando come la vera forza scaturisca dalla resilienza
@@ -40,7 +42,7 @@ function Home() {
         {/* Puoi mettere altro contenuto qui o lasciarlo vuoto */}
       </div>
       <div>
-        <h3 className="text-center fs-1">Dove siamo 🗺️</h3>
+        <h3 className="text-center fs-1">Dove siamo</h3>
         <Container>
           <MyMap />
         </Container>

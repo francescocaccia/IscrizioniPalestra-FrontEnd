@@ -13,8 +13,12 @@ body {
   align-items: center;
 }
 
+/* h1 */
+.text-warning {
+  text-shadow: 3px 3px 5px rgba(248, 248, 248, 0.3); /* X-offset, Y-offset, blur radius, colore */
+}
+
 .navbar-brand {
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -25,11 +29,8 @@ body {
   width: 100%;
 }
 /* App.css */
-
-.logo-image-navbar {
-  max-height: 60px; /* Imposta l'altezza massima del logo */
-  width: auto; /* Mantiene le proporzioni dell'immagine */
-  object-fit: contain; /* Assicura che il logo sia contenuto interamente */
+.custom-img-size {
+  width: 100px; /* O qualsiasi altra dimensione desideri */
 }
 
 /* HOME */

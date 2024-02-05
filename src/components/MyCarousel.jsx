@@ -1,8 +1,12 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import KoFermo from "../k.o fermo.jpg"; // Assicurati che il percorso sia corretto
-import Logo from "../logo.jpg"; // Assicurati che il percorso sia corretto
-// Altre immagini che vuoi includere
+import Logo from "../apepugi.png"; // Assicurati che il percorso sia corretto
+import primetto from "../Primetto.jpg";
+import LogoCompleto from "../logoCompleto.png";
+import Federico from "../FedericoStroppa.webp";
+import Francesco from "../FrancescoCacciapuoti2.jpg";
+import Federico2 from "../Stroppa.webp";
 
 function MyCarousel() {
   return (
@@ -11,9 +15,14 @@ function MyCarousel() {
         <img className="d-block w-100" src={KoFermo} alt="Boxing Ring" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={Logo} alt="Boxing Gloves" />
+        <img className="d-block w-100" src={Federico} alt="Boxing Gloves" />
       </Carousel.Item>
-      {/* Aggiungi altri Carousel.Item qui per più immagini */}
+      <Carousel.Item>
+        <img className="d-block w-100" src={Francesco} alt="Boxing Gloves" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={Federico2} alt="Boxing Gloves" />
+      </Carousel.Item>
     </Carousel>
   );
 }
