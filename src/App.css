@@ -170,3 +170,39 @@ p .hover-i:hover {
   cursor: pointer; /* Cambia il cursore in pointer per indicare che è cliccabile */
   text-decoration: none; /* Rimuove la sottolineatura */
 }
+
+/* Stili specifici per ChampGallery */
+.champ-gallery-container {
+  background: linear-gradient(45deg, #1b1b1b, #383838);
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.champ-gallery-title {
+  color: #ffd700;
+}
+
+.champ-gallery-text {
+  color: #f8f9fa;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.champ-card {
+  transition: transform 0.2s; /* Animazione */
+  box-shadow: 0 4px 8px rgba(247, 222, 60, 0.6); /* Ombra gialla */
+}
+
+.champ-card:hover {
+  transform: scale(1.05); /* Effetto zoom leggero al hover */
+}
+
+.champ-img-top {
+  height: 200px; /* Altezza fissa per uniformità */
+  object-fit: contain; /* Mostra l'intera immagine senza tagli */
+  width: 100%; /* Assicura che l'immagine si adatti alla larghezza della card */
+  background-color: #f8f9fa; /* Colore di sfondo per le aree vuote dell'immagine, se necessario */
+}

@@ -11,6 +11,7 @@ import Home from "./components/Home";
 import "./App.css";
 import Orari from "./components/Orari";
 import Footer from "./components/Footer";
+import ChampGallery from "./components/ChampGallery";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/searchAtleta" element={<SearchAtleta />} />
+          <Route path="/champGallery" element={<ChampGallery />} />
           <Route path="/insertAtleta" element={<InsertAtleta />} />
           <Route path="/editAtleta/:id" element={<EditAtleta />} />
           <Route path="/orari" element={<Orari />} />

@@ -33,7 +33,7 @@ const NavBar = () => {
               />
             </Navbar.Brand>
           </Nav.Item>
-          <Nav.Link as={Link} to="/">
+          <Nav.Link as={Link} to="/champGallery">
             <span>Galleria</span>
           </Nav.Link>
           <Nav.Link as={Link} to="/orari">
