@@ -3,12 +3,18 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Assicurati di importare il CSS
 import Primo1 from "../Primetto.jpg";
 import Primo2 from "../Primo.jpeg";
 import Primo3 from "../Zamparini.jpg";
+import Primo4 from "../zamparini.jpeg";
+import Primo5 from "../zampariniko.jpeg";
+import Primo6 from "../zampariniOlim.jpeg";
 
 // Simula un array di immagini
 const images = [
   { id: 1, url: Primo1 },
   { id: 2, url: Primo2 },
   { id: 3, url: Primo3 },
+  { id: 4, url: Primo4 },
+  { id: 5, url: Primo5 },
+  { id: 6, url: Primo6 },
 ];
 
 const ChampGallery = () => {
