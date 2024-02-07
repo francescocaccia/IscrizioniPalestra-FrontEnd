@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import LogoCompleto from "../logoCompleto.png";
+import LogoCompleto from "../logoCompletoremoveb.png";
 const NavBar = () => {
   return (
     <>

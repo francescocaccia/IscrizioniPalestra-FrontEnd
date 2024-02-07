@@ -1,9 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import KoFermo from "../k.o fermo.jpg"; // Assicurati che il percorso sia corretto
-import Logo from "../apepugi.png"; // Assicurati che il percorso sia corretto
-import primetto from "../Primetto.jpg";
-import LogoCompleto from "../logoCompleto.png";
 import Federico from "../FedericoStroppa.webp";
 import Francesco from "../FrancescoCacciapuoti2.jpg";
 import Federico2 from "../Stroppa.webp";

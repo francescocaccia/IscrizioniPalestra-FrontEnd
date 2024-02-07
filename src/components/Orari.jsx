@@ -1,6 +1,6 @@
 import React from "react";
 import { Alert, Container, Table } from "react-bootstrap";
-
+import apepugi from "../apepugi.png";
 const Orari = () => {
   // Dati esemplificativi per dimostrare la struttura
   const giorni = [
@@ -38,7 +38,15 @@ const Orari = () => {
 
   return (
     <Container className="orari-container mt-5">
-      <h2 className="text-center">Orari delle Lezioni</h2>
+      <h2 className="text-center">
+        Orari delle Lezioni{" "}
+        <img
+          src={apepugi}
+          alt="apepugi"
+          className="mx-auto d-block img-fluid"
+          style={{ maxWidth: "150px" }}
+        />
+      </h2>
       <div className="table-responsive">
         <Table striped bordered hover variant="dark" className="text-white">
           <thead>
@@ -66,10 +74,10 @@ const Orari = () => {
         <p className="text-center">
           Per lezioni private, mettersi d'accordo con l'allenatore Francesco al{" "}
           <a href="tel:+393207010150" className="telefono">
-            +39 320 7010150
+            <span className="fs-5">+39 320 7010150</span>
           </a>
           .
-        </p>
+        </p>{" "}
       </Alert>
     </Container>
   );

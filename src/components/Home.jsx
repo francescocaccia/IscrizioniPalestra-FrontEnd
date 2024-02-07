@@ -3,7 +3,6 @@ import MyMap from "./MyMap";
 import "leaflet/dist/leaflet.css";
 import { Container } from "react-bootstrap";
 import MyCarousel from "./MyCarousel";
-import LogoApe from "../apepugi.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
 
 function Home() {
