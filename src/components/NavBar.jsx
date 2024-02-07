@@ -11,6 +11,7 @@ const NavBar = () => {
         style={{
           borderTop: "5px solid black",
           borderBottom: "5px solid white", // Imposta il bordo inferiore
+
           background:
             "linear-gradient(to right, rgba(255, 255, 0, 0.5), rgba(0, 0, 0, 0.5))", // Gradiente trasparente da giallo a nero
         }}
@@ -24,7 +25,11 @@ const NavBar = () => {
                 src={LogoCompleto}
                 alt="Logo della Pugilistica Fabrianese"
                 className="logo-image-navbar"
-                style={{ width: "150px", height: "80px" }} // Imposta la larghezza a 150 pixel
+                style={{
+                  width: "150px",
+                  height: "80px",
+                  filter: "drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.5))",
+                }}
               />
             </Navbar.Brand>
           </Nav.Item>
