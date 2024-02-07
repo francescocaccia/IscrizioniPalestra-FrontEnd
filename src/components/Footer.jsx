@@ -73,7 +73,7 @@ function Footer() {
                     </svg>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
+                    <a className="nav-link text-muted" href="*">
                       <p className="m-0">
                         Piazzale Don Ugo Petruio <br />
                         Fabriano (AN) <br />
@@ -88,7 +88,7 @@ function Footer() {
                     </button>
                   </li>
                   <li className="nav-item mt-2">
-                    <a className="nav-link text-muted" href="/">
+                    <a className="nav-link text-muted" href="*">
                       <span className="m-0">
                         © 2024 Pugilistica Fabrianese Inc
                       </span>{" "}
@@ -103,7 +103,7 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
+                    <a className="nav-link text-muted" href="*">
                       <p className="m-0">pugilisticafabrianese@gmail.com</p>
                     </a>
                   </li>
@@ -112,7 +112,7 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
+                    <a className="nav-link text-muted" href="*">
                       <p className="m-0">+39 3207010150</p>
                     </a>
                   </li>
@@ -121,7 +121,7 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
+                    <a className="nav-link text-muted" href="*">
                       <p className="m-0">
                         <span className="hover-f">F</span>.
                         <span className="hover-p">P</span>.
