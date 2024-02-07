@@ -75,11 +75,21 @@ body {
   color: #ececec; /* Colore del testo leggermente più morbido rispetto al bianco puro */
 }
 
+/* footer */
 .footer {
   background-color: #000;
   color: white;
   padding: 20px;
   text-align: center;
+}
+
+.custom-btn-hover:hover {
+  color: #ffd700 !important; /* Cambia il colore del testo in giallo */
+  border-color: #ffd700 !important; /* Cambia il colore del bordo in giallo */
+}
+
+.icon-hover:hover {
+  fill: #ffd700 !important;
 }
 
 /* CSS per centrare verticalmente */
