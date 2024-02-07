@@ -24,6 +24,9 @@ const ChampGallery = () => {
         Primo Zamparini - Orgoglio di Fabriano
       </h2>
       <h5 className="champ-gallery-text">"La macchina da pugni"</h5>
+      <p className="text-center">
+        Primo è Presidente Onorario a Vita della nostra palestra
+      </p>
       <div className="row">
         {images.map((image) => (
           <div key={image.id} className="col-12 col-sm-6 col-md-4 mb-4">
