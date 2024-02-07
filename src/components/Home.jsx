@@ -48,18 +48,23 @@ function Home() {
       </div>
       <div>
         <h3 className="text-center fs-1 mt-3 mb-3">Dove siamo</h3>
-        <Container
+        <div
           style={{
-            border: "7px solid #343a40",
+            border: "3px solid rgba(52, 58, 64, 0)", // Colore del bordo trasparente
             padding: 0,
           }}
         >
-          <MyMap />
-        </Container>
+          <Container
+            className="mb-4"
+            style={{
+              border: "7px solid #343a40",
+              padding: 0,
+            }}
+          >
+            <MyMap />
+          </Container>{" "}
+        </div>
       </div>
-      <footer className="bg-dark text-white p-3 mt-3 text-center">
-        <p>© 2023 Pugilistica Fabrianese | Tutti i diritti riservati</p>
-      </footer>
     </div>
   );
 }

@@ -10,6 +10,7 @@ import EditAtleta from "./components/EditAtleta";
 import Home from "./components/Home";
 import "./App.css";
 import Orari from "./components/Orari";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/editAtleta/:id" element={<EditAtleta />} />
           <Route path="/orari" element={<Orari />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
