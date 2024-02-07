@@ -1,5 +1,7 @@
 import React from "react";
 import apepugi from "../apepugi.png";
+import { GiItalia, GiBoxingGlove } from "react-icons/gi";
+
 function Footer() {
   return (
     <>
@@ -72,24 +74,14 @@ function Footer() {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Food and Wine</p>
+                      <p className="m-0">
+                        Piazzale Don Ugo Petruio <br />
+                        Fabriano (AN) <br />
+                        Ex piscina comunale
+                      </p>
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
-                      <p className="m-0"> Media Center</p>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Privacy</p>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Contact Us</p>
-                    </a>
-                  </li>
+
                   <li className="nav-item mt-2">
                     <button className="btn btn-outline-secondary custom-btn-hover">
                       <p className="m-0">CONTACT US</p>
@@ -100,17 +92,10 @@ function Footer() {
                       <span className="m-0">
                         © 2024 Pugilistica Fabrianese Inc
                       </span>{" "}
-                      {/* <p className="m-0">
+                      <p className="m-0">
                         Italians do it Better...
-                        <GiItalia className="fs-3 ms-1" />
-                        <img
-                          src={ItalyFlag}
-                          height={30}
-                          width={30}
-                          alt="ItalyFlag"
-                          className="ms-1"
-                        />
-                      </p> */}
+                        <GiItalia className="fs-2 ms-1" />
+                      </p>
                     </a>
                   </li>
                 </ul>
@@ -119,17 +104,7 @@ function Footer() {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Restaurant Description</p>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Investor Relations</p>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Legal Notices</p>
+                      <p className="m-0">pugilisticafabrianese@gmail.com</p>
                     </a>
                   </li>
                 </ul>
@@ -138,7 +113,7 @@ function Footer() {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Help Center</p>
+                      <p className="m-0">+39 3207010150</p>
                     </a>
                   </li>
                 </ul>
@@ -147,7 +122,11 @@ function Footer() {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <a className="nav-link text-muted" href="/">
-                      <p className="m-0">Gift Cards</p>
+                      <p className="m-0">
+                        <span className="hover-f">F</span>.
+                        <span className="hover-p">P</span>.
+                        <span className="hover-i">I</span>. <GiBoxingGlove />
+                      </p>
                     </a>
                   </li>
                 </ul>

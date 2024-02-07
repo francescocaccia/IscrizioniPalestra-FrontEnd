@@ -101,6 +101,18 @@ body {
   height: auto; /* Mantiene le proporzioni dell'immagine */
 }
 
+p .hover-f:hover {
+  color: green !important;
+}
+
+p .hover-p:hover {
+  color: white !important;
+}
+
+p .hover-i:hover {
+  color: red !important;
+}
+
 /* CSS per centrare verticalmente */
 .custom-carousel-container .carousel {
   max-width: 100%;
