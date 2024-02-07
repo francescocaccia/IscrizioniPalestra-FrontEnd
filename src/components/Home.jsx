@@ -49,7 +49,12 @@ function Home() {
       </div>
       <div>
         <h3 className="text-center fs-1 mt-3 mb-3">Dove siamo</h3>
-        <Container>
+        <Container
+          style={{
+            border: "7px solid #343a40",
+            padding: 0,
+          }}
+        >
           <MyMap />
         </Container>
       </div>
