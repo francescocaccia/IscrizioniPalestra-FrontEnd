@@ -8,8 +8,8 @@ import InsertAtleta from "./components/InsertAtleta";
 import NavBar from "./components/NavBar";
 import EditAtleta from "./components/EditAtleta";
 import Home from "./components/Home";
-// In App.jsx o main.jsx
 import "./App.css";
+import Orari from "./components/Orari";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path="/searchAtleta" element={<SearchAtleta />} />
           <Route path="/insertAtleta" element={<InsertAtleta />} />
           <Route path="/editAtleta/:id" element={<EditAtleta />} />
+          <Route path="/orari" element={<Orari />} />
         </Routes>
       </BrowserRouter>
     </>

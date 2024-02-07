@@ -4,20 +4,26 @@ import "leaflet/dist/leaflet.css";
 import { Container } from "react-bootstrap";
 import MyCarousel from "./MyCarousel";
 import LogoApe from "../apepugi.png";
+import { SiInstagram, SiFacebook } from "react-icons/si";
 
 function Home() {
   return (
     <div className="home">
       <div className="fixed-background text-center">
-        <img
+        {/* <img
           className="d-block mx-auto w-10 custom-img-size"
           src={LogoApe}
           alt="Boxing Ring"
-        />
+        /> */}
         <span className="custom-carousel-container ">
           <MyCarousel />
         </span>
-        <h3 className="text-white">
+        <div className="mt-3">
+          <SiInstagram className="fs-1 me-3 text-warning" />
+          <SiFacebook className="fs-1 text-primary" />
+        </div>
+        <h2 className="mt-3">Chi siamo</h2>
+        <h3 className="text-white my-4 styled-text">
           La Pugilistica Fabrianese è un incrocio dove mente e corpo si
           incontrano, rivelando come la vera forza scaturisca dalla resilienza
           interiore. Ogni istante trascorso tra le corde del ring è un passo
@@ -42,7 +48,7 @@ function Home() {
         {/* Puoi mettere altro contenuto qui o lasciarlo vuoto */}
       </div>
       <div>
-        <h3 className="text-center fs-1">Dove siamo</h3>
+        <h3 className="text-center fs-1 mt-3 mb-3">Dove siamo</h3>
         <Container>
           <MyMap />
         </Container>

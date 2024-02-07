@@ -29,8 +29,12 @@ const NavBar = () => {
             </Navbar.Brand>
           </Nav.Item>
           <Nav.Link as={Link} to="/">
-            Galleria
+            <span>Galleria</span>
           </Nav.Link>
+          <Nav.Link as={Link} to="/orari">
+            <span>Orari</span>
+          </Nav.Link>
+
           {/* Inserisci qui i link a destra */}
           {/* Esempio: <Nav.Link as={Link} to="/another-page">Altra Pagina</Nav.Link> */}
         </Nav>

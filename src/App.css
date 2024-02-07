@@ -13,6 +13,24 @@ body {
   align-items: center;
 }
 
+/* Aggiungi queste regole nel tuo file CSS globale o in un tag <style> nel componente */
+.nav-link:hover {
+  color: #ffd700 !important; /* Cambia questo colore con quello che preferisci per l'hover */
+}
+
+/* Stile per la navbar personalizzata */
+.navbar-custom .nav-link {
+  color: white; /* Colore di default dei link */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffd700 !important; /* Colore al passaggio del mouse */
+}
+
+.navbar-custom {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Esempio di ombra */
+}
+
 /* h1 */
 .text-warning {
   text-shadow: 3px 3px 5px rgba(248, 248, 248, 0.3); /* X-offset, Y-offset, blur radius, colore */
@@ -39,6 +57,24 @@ body {
   background-image: linear-gradient(to right, #fff44f 0%, #000 100%);
 }
 
+/* testo chi siamo h3 */
+.styled-text {
+  font-weight: 500; /* Peso del font intermedio */
+  text-shadow: 2px 2px 4px #000000; /* Ombreggiatura per migliorare la leggibilità */
+  line-height: 1.5; /* Spaziatura tra le linee */
+  font-size: 1.25rem; /* Dimensione del font */
+  padding: 0 20px; /* Padding per non attaccare il testo ai bordi */
+  margin-top: 20px; /* Margine superiore */
+  background: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Sfondo leggermente trasparente per contrasto */
+  border-radius: 10px; /* Bordi arrotondati */
+  color: #ececec; /* Colore del testo leggermente più morbido rispetto al bianco puro */
+}
+
 .footer {
   background-color: #000;
   color: white;
@@ -62,3 +98,44 @@ body {
 }
 
 /*  */
+/* Orari.css */
+/* Centra il testo in tutte le celle della tabella */
+.table th,
+.table td {
+  text-align: center; /* Centra il testo orizzontalmente */
+  vertical-align: middle; /* Centra il testo verticalmente */
+}
+
+/* Stili aggiuntivi per migliorare l'aspetto della tabella */
+.orari-container {
+  background-color: rgba(0, 0, 0, 0.8); /* Sfondo scuro semi-trasparente */
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.orari-container h2 {
+  color: #ffd700; /* Colore del titolo per richiamare l'oro o il giallo */
+}
+
+.table {
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5); /* Ombra leggera per dare profondità */
+}
+
+.table th,
+.table td {
+  color: #ffffff; /* Testo bianco per contrastare con lo sfondo scuro */
+}
+
+/* telefono */
+.telefono {
+  color: black;
+  font-weight: bold; /* Rende il testo in grassetto */
+  text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+.telefono:hover {
+  color: #ffd700; /* Testo bianco per contrastare con lo sfondo scuro */
+  cursor: pointer; /* Cambia il cursore in pointer per indicare che è cliccabile */
+  text-decoration: none; /* Rimuove la sottolineatura */
+}
