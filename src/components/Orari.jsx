@@ -72,7 +72,8 @@ const Orari = () => {
       <Alert variant="success" className="mt-4">
         <h4 className="text-center">Lezioni Private</h4>
         <p className="text-center">
-          Per lezioni private, mettersi d'accordo con l'allenatore Francesco al{" "}
+          Per lezioni private, mettersi d'accordo con l'allenatore{" "}
+          <strong>Francesco</strong> al{" "}
           <a href="tel:+393207010150" className="telefono">
             <span className="fs-5">+39 320 7010150</span>
           </a>

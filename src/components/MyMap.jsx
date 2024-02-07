@@ -19,7 +19,7 @@ const MyMap = () => {
     <MapContainer
       center={position}
       zoom={13}
-      style={{ height: "400px", width: "100%", border: "15px solid #FFD700" }}
+      style={{ height: "400px", width: "100%", border: "7px solid #FFD700" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
