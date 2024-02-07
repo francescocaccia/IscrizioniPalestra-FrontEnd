@@ -44,7 +44,10 @@ const Orari = () => {
           src={apepugi}
           alt="apepugi"
           className="mx-auto d-block img-fluid"
-          style={{ maxWidth: "150px" }}
+          style={{
+            maxWidth: "150px",
+            filter: "drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5))",
+          }}
         />
       </h2>
       <div className="table-responsive">
