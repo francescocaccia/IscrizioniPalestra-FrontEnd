@@ -1,10 +1,16 @@
 import React from "react";
-
+import apepugi from "../apepugi.png";
 function Footer() {
   return (
     <>
       <div className="footer mt-5">
-        {" "}
+        <div className="d-flex justify-content-center">
+          <img
+            src={apepugi}
+            alt="apepugi"
+            className="img-fluid shadow-custom"
+          />
+        </div>
         <footer className="bg-dark text-white py-3 mt-3 text-center">
           <p>© 2023 Pugilistica Fabrianese | Tutti i diritti riservati</p>
         </footer>
