@@ -7,7 +7,7 @@ import Primo4 from "../zamparini.jpeg";
 import Primo5 from "../zampariniko.jpeg";
 import Primo6 from "../zampariniOlim.jpeg";
 import Federico from "../Federico.jpg";
-
+import Io from "../ioEclaude.jpg";
 // Simula un array di immagini
 const images = [
   { id: 1, url: Primo1 },
@@ -108,6 +108,35 @@ const ChampGallery = () => {
               alt="Federico"
               className="card-img-top champ-img-top"
             />
+            <div className="card-body"></div>
+          </div>
+        </div>
+      </div>
+      <div className="champ-gallery-container">
+        <h2 className="champ-gallery-title text-center mb-4">
+          Francesco Cacciapuoti - Nuove glorie Fabrianesi
+        </h2>{" "}
+        <p>
+          Francesco Cacciapuoti, si distingue nel panorama del pugilato per la
+          sua straordinaria dedizione e spirito competitivo. Cresciuto
+          nell'ambiente stimolante e ricco di tradizione della Pugilistica
+          Fabrianese , Francesco ha dimostrato fin dai suoi esordi una passione
+          bruciante e un impegno costante verso lo sport. Dotato di un talento
+          naturale e di una determinazione ferrea, Francesco si è guadagnato il
+          rispetto dei compagni di allenamento e degli avversari sul ring. La
+          sua carriera, pur non essendo costellata di titoli, si distingue per
+          una caratteristica notevole: la potenza del suo pugno, che gli ha
+          permesso di vincere numerosi match alla prima ripresa. Questa
+          capacità, unita alla sua abilità tecnica e resilienza atletica, rende
+          Francesco un avversario formidabile e un esempio di forza e strategia
+          nel mondo della boxe. Attualmente, mette la sua esperienza al servizio
+          della comunità come allenatore, guidando la prossima generazione di
+          pugili con la stessa passione e dedizione che hanno caratterizzato la
+          sua carriera agonistica.
+        </p>
+        <div className="row">
+          <div className="card champ-card shadow">
+            <img src={Io} alt="Io" className="card-img-top champ-img-top" />
             <div className="card-body"></div>
           </div>
         </div>
