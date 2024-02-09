@@ -103,21 +103,26 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="*">
+                    <a
+                      className="nav-link text-muted"
+                      href="mailto:pugilisticafabrianese@gmail.com"
+                    >
                       <p className="m-0">pugilisticafabrianese@gmail.com</p>
                     </a>
                   </li>
                 </ul>
               </div>
+
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="*">
+                    <a className="nav-link text-muted" href="tel:+393207010150">
                       <p className="m-0">+39 3207010150</p>
                     </a>
                   </li>
                 </ul>
               </div>
+
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">

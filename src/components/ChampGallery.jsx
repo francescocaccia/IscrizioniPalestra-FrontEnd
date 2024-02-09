@@ -57,9 +57,6 @@ const ChampGallery = () => {
                   alt={image.alt}
                   className="card-img-top champ-img-top"
                 />
-                <div className="card-body">
-                  <p className="card-text">{image.alt}</p>
-                </div>
               </div>
             </div>
           ))}
@@ -108,7 +105,6 @@ const ChampGallery = () => {
               alt="Federico"
               className="card-img-top champ-img-top"
             />
-            <div className="card-body"></div>
           </div>
         </div>
       </div>
@@ -137,7 +133,7 @@ const ChampGallery = () => {
         <div className="row">
           <div className="card champ-card shadow">
             <img src={Io} alt="Io" className="card-img-top champ-img-top" />
-            <div className="card-body"></div>
+            {/* <div className="card-body">per aggiungere una descrizione alla foto</div> */}
           </div>
         </div>
       </div>

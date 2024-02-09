@@ -191,18 +191,27 @@ p .hover-i:hover {
   text-align: center;
 }
 
+.champ-img-top {
+  height: 200px; /* Altezza fissa per uniformità */
+  width: 100%; /* La larghezza si adatta alla larghezza della card */
+  object-fit: contain; /* Mostra l'intera immagine senza tagli */
+  background-color: #1b1b1b; /* Cambia lo sfondo per abbinarlo al container se l'immagine non lo riempie */
+  display: block; /* Elimina spazi extra sotto l'immagine */
+  margin: auto; /* Centra l'immagine orizzontalmente se non riempie l'intera larghezza */
+}
+
+/* Stile base per la card */
+.card.champ-card {
+  margin: auto; /* Centra la card */
+  max-width: 95%; /* Imposta una larghezza massima per evitare che la card sia troppo larga su schermi grandi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un ombra per migliorare l'estetica */
+}
+
 .champ-card {
-  transition: transform 0.2s; /* Animazione */
-  box-shadow: 0 4px 8px rgba(247, 222, 60, 0.6); /* Ombra gialla */
+  transition: transform 0.2s, box-shadow 0.2s; /* Aggiunge una transizione per l'hover */
 }
 
 .champ-card:hover {
-  transform: scale(1.05); /* Effetto zoom leggero al hover */
-}
-
-.champ-img-top {
-  height: 200px; /* Altezza fissa per uniformità */
-  object-fit: contain; /* Mostra l'intera immagine senza tagli */
-  width: 100%; /* Assicura che l'immagine si adatti alla larghezza della card */
-  background-color: #f8f9fa; /* Colore di sfondo per le aree vuote dell'immagine, se necessario */
+  transform: scale(1.05); /* Effetto zoom leggero all'hover */
+  box-shadow: 0 4px 8px rgba(248, 244, 14, 0.6); /* Ombra gialla all'hover */
 }
