@@ -215,3 +215,32 @@ p .hover-i:hover {
   transform: scale(1.05); /* Effetto zoom leggero all'hover */
   box-shadow: 0 4px 8px rgba(248, 244, 14, 0.6); /* Ombra gialla all'hover */
 }
+
+/* PARLANO DI NOI */
+
+.parlano-di-noi-container {
+  background: #f0f0f0; /* Sfondo specifico per il container di questo componente */
+}
+
+.parlano-di-noi-title {
+  color: #333; /* Colore personalizzato per il titolo */
+  font-family: "Times New Roman", Times, serif; /* Stile font giornale */
+}
+
+.parlano-di-noi-card {
+  border: 1px solid #ddd; /* Bordo personalizzato per le card */
+  background: #fff; /* Sfondo specifico per le card */
+}
+
+.parlano-di-noi-img {
+  object-fit: cover; /* Assicura che l'immagine copra l'area designata */
+}
+
+.parlano-di-noi-card-title {
+  font-family: "Georgia", serif; /* Stile font giornale per i titoli delle card */
+  font-weight: bold;
+}
+
+.parlano-di-noi-card-text {
+  font-family: "Arial", sans-serif; /* Font più leggibile per il corpo del testo */
+}
