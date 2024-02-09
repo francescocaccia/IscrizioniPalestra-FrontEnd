@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Assicurati di importare il CSS di Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
 import Primo1 from "../Primetto.jpg";
 import Primo2 from "../Primo.jpeg";
 import Primo3 from "../Zamparini.jpg";

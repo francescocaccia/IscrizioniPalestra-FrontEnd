@@ -73,7 +73,7 @@ function Footer() {
                     </svg>
                   </li>
                   <li className="nav-item">
-                    <p className="m-0">
+                    <p className="m-0 nav-link">
                       Piazzale Don Ugo Petruio <br />
                       Fabriano (AN) <br />
                       Ex piscina comunale
@@ -86,10 +86,10 @@ function Footer() {
                     </button>
                   </li>
                   <li className="nav-item mt-2">
-                    <span className="m-0">
+                    <span className="m-0 nav-link">
                       © 2024 Pugilistica Fabrianese Inc
                     </span>{" "}
-                    <p className="m-0">
+                    <p className="m-0 nav-link ">
                       Italians do it Better...
                       <GiItalia className="fs-2 ms-1" />
                     </p>
@@ -100,7 +100,7 @@ function Footer() {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <a
-                      className="nav-link text-muted"
+                      className="nav-link"
                       href="mailto:pugilisticafabrianese@gmail.com"
                     >
                       <p className="m-0">pugilisticafabrianese@gmail.com</p>
@@ -112,7 +112,7 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="tel:+393207010150">
+                    <a className="nav-link " href="tel:+393207010150">
                       <p className="m-0">+39 3207010150</p>
                     </a>
                   </li>
@@ -122,7 +122,7 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <p className="m-0">
+                    <p className="m-0 nav-link">
                       <span className="hover-f">F</span>.
                       <span className="hover-p">P</span>.
                       <span className="hover-i">I</span>. <GiBoxingGlove />
