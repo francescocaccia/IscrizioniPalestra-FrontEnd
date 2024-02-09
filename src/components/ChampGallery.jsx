@@ -33,7 +33,7 @@ const ChampGallery = () => {
           {" "}
           <p>
             "Orgoglio di Fabriano, Primo Zamparini è una leggenda vivente nel
-            mondo della boxe. Nato nella nostra amata città il 9 febbraio 1939,
+            mondo della boxe. Nato nella nostra amata città il 10 febbraio 1939,
             Primo ha scalato le vette dell'Olimpo del pugilato con la passione e
             la determinazione che solo i veri campioni possiedono. La sua
             straordinaria carriera è stata coronata da una storica medaglia

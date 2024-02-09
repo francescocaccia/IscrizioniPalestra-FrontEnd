@@ -73,13 +73,11 @@ function Footer() {
                     </svg>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="*">
-                      <p className="m-0">
-                        Piazzale Don Ugo Petruio <br />
-                        Fabriano (AN) <br />
-                        Ex piscina comunale
-                      </p>
-                    </a>
+                    <p className="m-0">
+                      Piazzale Don Ugo Petruio <br />
+                      Fabriano (AN) <br />
+                      Ex piscina comunale
+                    </p>
                   </li>
 
                   <li className="nav-item mt-2">
@@ -88,15 +86,13 @@ function Footer() {
                     </button>
                   </li>
                   <li className="nav-item mt-2">
-                    <a className="nav-link text-muted" href="*">
-                      <span className="m-0">
-                        © 2024 Pugilistica Fabrianese Inc
-                      </span>{" "}
-                      <p className="m-0">
-                        Italians do it Better...
-                        <GiItalia className="fs-2 ms-1" />
-                      </p>
-                    </a>
+                    <span className="m-0">
+                      © 2024 Pugilistica Fabrianese Inc
+                    </span>{" "}
+                    <p className="m-0">
+                      Italians do it Better...
+                      <GiItalia className="fs-2 ms-1" />
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -126,13 +122,11 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link text-muted" href="*">
-                      <p className="m-0">
-                        <span className="hover-f">F</span>.
-                        <span className="hover-p">P</span>.
-                        <span className="hover-i">I</span>. <GiBoxingGlove />
-                      </p>
-                    </a>
+                    <p className="m-0">
+                      <span className="hover-f">F</span>.
+                      <span className="hover-p">P</span>.
+                      <span className="hover-i">I</span>. <GiBoxingGlove />
+                    </p>
                   </li>
                 </ul>
               </div>
