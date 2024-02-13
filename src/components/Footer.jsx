@@ -1,6 +1,9 @@
 import React from "react";
 import apepugi from "../apepugi.png";
-import { GiItalia, GiBoxingGlove } from "react-icons/gi";
+import { GiItalia } from "react-icons/gi";
+import LogoAvis from "../Avis.png";
+import LogoFederazione from "../federazioneLogo.png";
+import coni from "../coni.png";
 
 function Footer() {
   return (
@@ -80,11 +83,7 @@ function Footer() {
                     </p>
                   </li>
 
-                  <li className="nav-item mt-2">
-                    <button className="btn btn-outline-secondary custom-btn-hover">
-                      <p className="m-0">CONTACT US</p>
-                    </button>
-                  </li>
+                  <li className="nav-item mt-2"></li>
                   <li className="nav-item mt-2">
                     <span className="m-0 nav-link">
                       © 2024 Pugilistica Fabrianese Inc
@@ -96,14 +95,21 @@ function Footer() {
                   </li>
                 </ul>
               </div>
+
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="mailto:pugilisticafabrianese@gmail.com"
-                    >
-                      <p className="m-0">pugilisticafabrianese@gmail.com</p>
+                    <a className="nav-link" href="">
+                      <p className="m-0">Collaboriamo con</p>
+                      <img
+                        src={LogoAvis}
+                        alt="Logo avis"
+                        className="logoAvis"
+                        style={{
+                          width: "150px",
+                          height: "80px",
+                        }}
+                      />
                     </a>
                   </li>
                 </ul>
@@ -111,6 +117,17 @@ function Footer() {
 
               <div className="col-md-3">
                 <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <button className="btn btn-outline-secondary custom-btn-hover">
+                      <p className="m-0">CONTACT US</p>
+                    </button>
+                    <a
+                      className="nav-link"
+                      href="mailto:pugilisticafabrianese@gmail.com"
+                    >
+                      <p className="m-0">pugilisticafabrianese@gmail.com</p>
+                    </a>
+                  </li>
                   <li className="nav-item">
                     <a className="nav-link " href="tel:+393207010150">
                       <p className="m-0">+39 3207010150</p>
@@ -122,11 +139,31 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <p className="m-0 nav-link">
+                    <img
+                      src={coni}
+                      alt="Logo coni"
+                      className="coni"
+                      style={{
+                        width: "150px",
+                        height: "90px",
+                      }}
+                    />
+
+                    {/* <p className="m-0 nav-link">
                       <span className="hover-f">F</span>.
                       <span className="hover-p">P</span>.
-                      <span className="hover-i">I</span>. <GiBoxingGlove />
-                    </p>
+                      <span className="hover-i">I</span>.
+                    </p> */}
+
+                    <img
+                      src={LogoFederazione}
+                      alt="Logo federazione"
+                      className="logoFederazione ms-3"
+                      style={{
+                        width: "90px",
+                        height: "90px",
+                      }}
+                    />
                   </li>
                 </ul>
               </div>

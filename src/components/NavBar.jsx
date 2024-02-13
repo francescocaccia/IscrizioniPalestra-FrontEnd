@@ -10,10 +10,11 @@ const NavBar = () => {
         className="sticky-top navbar-custom"
         style={{
           borderTop: "5px solid black",
-          borderBottom: "5px solid white", // Imposta il bordo inferiore
-
           background:
             "linear-gradient(to right, rgba(255, 255, 0, 0.5), rgba(0, 0, 0, 0.5))", // Gradiente trasparente da giallo a nero
+          borderBottom: "5px solid transparent", // Prepara il bordo per il gradiente
+          boxShadow:
+            "0 5px 0 0 rgba(0, 128, 0, 1), 0 5px 0 5px rgba(255, 255, 255, 1), 0 5px 0 10px rgba(255, 0, 0, 1)", // Crea l'effetto tricolore
         }}
       >
         <Nav className="d-flex justify-content-center align-items-center w-100">
