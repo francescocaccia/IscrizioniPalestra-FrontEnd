@@ -99,18 +99,16 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link" href="">
-                      <p className="m-0">Collaboriamo con</p>
-                      <img
-                        src={LogoAvis}
-                        alt="Logo avis"
-                        className="logoAvis"
-                        style={{
-                          width: "150px",
-                          height: "80px",
-                        }}
-                      />
-                    </a>
+                    <p className="m-0">Collaboriamo con</p>
+                    <img
+                      src={LogoAvis}
+                      alt="Logo avis"
+                      className="logoAvis"
+                      style={{
+                        width: "150px",
+                        height: "80px",
+                      }}
+                    />
                   </li>
                 </ul>
               </div>
