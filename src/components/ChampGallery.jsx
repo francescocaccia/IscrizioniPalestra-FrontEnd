@@ -8,6 +8,7 @@ import Primo5 from "../zampariniko.jpeg";
 import Primo6 from "../zampariniOlim.jpeg";
 import Federico from "../Federico.jpg";
 import Io from "../ioEclaude.jpg";
+import Matteo from "../Matteo.jpg";
 // Simula un array di immagini
 const images = [
   { id: 1, url: Primo1 },
@@ -133,6 +134,39 @@ const ChampGallery = () => {
         <div className="row">
           <div className="card champ-card shadow">
             <img src={Io} alt="Io" className="card-img-top champ-img-top" />
+            {/* <div className="card-body">per aggiungere una descrizione alla foto</div> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="champ-gallery-container">
+        <h2 className="champ-gallery-title text-center mb-4">
+          Matteo Mantini - Nuove glorie Fabrianesi
+        </h2>{" "}
+        <p>
+          <p>
+            Matteo Mantini si è affermato come una figura rispettata nel
+            panorama del pugilato di Fabriano, grazie alla sua carriera
+            brillante, segnata da una passione profonda per lo sport e risultati
+            notevoli. Con un background di anni di pratica e la vittoria di un
+            campionato interregionale, Matteo ha dimostrato non solo talento e
+            abilità sul ring, ma anche una rara capacità di mantenere un record
+            quasi impeccabile, con una sola sconfitta che attesta la sua
+            resilienza e spirito competitivo. Oltre ai successi in gara, Matteo
+            è conosciuto per la sua dedizione e il contributo al pugilato di
+            Fabriano, dimostrando un impegno costante sia in allenamento che in
+            competizione. Attualmente, sta canalizzando la sua esperienza e
+            passione nel ruolo di aspirante tecnico, con l'obiettivo di
+            trasferire la sua conoscenza e ispirare nuovi talenti nel mondo
+            della pugilistica. Il suo approccio equilibrato tra tecnica
+            raffinata e tattica acuta fa di lui un modello da seguire e un
+            potenziale allenatore di successo per la nuova generazione di
+            pugili.
+          </p>
+        </p>
+        <div className="row">
+          <div className="card champ-card shadow">
+            <img src={Matteo} alt="Io" className="card-img-top champ-img-top" />
             {/* <div className="card-body">per aggiungere una descrizione alla foto</div> */}
           </div>
         </div>
