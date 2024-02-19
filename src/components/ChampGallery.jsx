@@ -9,6 +9,7 @@ import Primo6 from "../zampariniOlim.jpeg";
 import Federico from "../Federico.jpg";
 import Io from "../ioEclaude.jpg";
 import Matteo from "../Matteo.jpg";
+import VideoPrimo from "../PrimoIntervista.mp4";
 // Simula un array di immagini
 const images = [
   { id: 1, url: Primo1 },
@@ -48,6 +49,23 @@ const ChampGallery = () => {
             immagine guida con passione le nuove generazioni verso la grandezza.
           </p>
         </p>
+        {/* video */}
+
+        <div className="video-container my-4">
+          <video
+            width="100%"
+            height="315"
+            controls
+            title="Video di Primo Zamparini"
+          >
+            <source src={VideoPrimo} type="video/mp4" />
+            Il tuo browser non supporta il tag video.
+          </video>
+          <p className="video-credits text-center">
+            Video realizzato da Manuel Brega
+          </p>
+        </div>
+
         <div className="row">
           {images.map((image) => (
             <div key={image.id} className="col-12 col-sm-6 col-md-4 mb-4">
