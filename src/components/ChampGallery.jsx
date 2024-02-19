@@ -9,7 +9,7 @@ import Primo6 from "../zampariniOlim.jpeg";
 import Federico from "../Federico.jpg";
 import Io from "../ioEclaude.jpg";
 import Matteo from "../Matteo.jpg";
-import VideoPrimo from "../PrimoIntervista.mp4";
+
 // Simula un array di immagini
 const images = [
   { id: 1, url: Primo1 },
@@ -52,15 +52,15 @@ const ChampGallery = () => {
         {/* video */}
 
         <div className="video-container my-4">
-          <video
+          <iframe
             width="100%"
             height="315"
-            controls
+            src="https://www.youtube.com/embed/ppJRPmDJRK8"
             title="Video di Primo Zamparini"
-          >
-            <source src={VideoPrimo} type="video/mp4" />
-            Il tuo browser non supporta il tag video.
-          </video>
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           <p className="video-credits text-center">
             Video realizzato da Manuel Brega
           </p>
