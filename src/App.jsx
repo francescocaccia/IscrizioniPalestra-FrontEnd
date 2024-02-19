@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,16 +8,16 @@ import InsertAtleta from "./components/InsertAtleta";
 import NavBar from "./components/NavBar";
 import EditAtleta from "./components/EditAtleta";
 import Home from "./components/Home";
-import "./App.css";
 import Orari from "./components/Orari";
 import Footer from "./components/Footer";
 import ChampGallery from "./components/ChampGallery";
 import ParlanoDiNoi from "./components/ParlanoDiNoi";
 import GymBoxe from "./components/GymBoxe";
+
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="/GymBoxe" element={<GymBoxe />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </>
   );
 }

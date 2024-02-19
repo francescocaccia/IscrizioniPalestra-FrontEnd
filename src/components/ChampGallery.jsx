@@ -33,7 +33,7 @@ const ChampGallery = () => {
         <p>
           {" "}
           <p>
-            "Orgoglio di Fabriano, Primo Zamparini è una leggenda vivente nel
+            Orgoglio di Fabriano, Primo Zamparini è una leggenda vivente nel
             mondo della boxe. Nato nella nostra amata città il 10 febbraio 1939,
             Primo ha scalato le vette dell'Olimpo del pugilato con la passione e
             la determinazione che solo i veri campioni possiedono. La sua
@@ -45,8 +45,7 @@ const ChampGallery = () => {
             continuano a ispirare giovani atleti nella nostra comunità e oltre.
             La sua eredità vive nella nostra palestra, dove Primo, con grande
             onore, ricopre il ruolo di Presidente Onorario a Vita, la sua
-            immagine guida con passione le nuove generazioni verso la
-            grandezza."
+            immagine guida con passione le nuove generazioni verso la grandezza.
           </p>
         </p>
         <div className="row">
@@ -72,7 +71,7 @@ const ChampGallery = () => {
         <p>
           {" "}
           <p>
-            "Federico Stroppa, nato nel 1998, è una stella nascente del panorama
+            Federico Stroppa, nato nel 1998, è una stella nascente del panorama
             pugilistico italiano, cresciuto e formato nella rinomata scuola
             della Pugilistica Fabrianese. Dall'inizio della sua avventura nel
             mondo della boxe, Federico ha dimostrato un talento straordinario e
@@ -96,7 +95,7 @@ const ChampGallery = () => {
             Fabriano sempre più in alto nel mondo della boxe. Buona fortuna,
             Federico, il ring tedesco ti attende, e noi siamo convinti che
             saprai conquistarlo con la stessa grinta e determinazione che hai
-            sempre dimostrato."
+            sempre dimostrato.
           </p>
         </p>
         <div className="row">
