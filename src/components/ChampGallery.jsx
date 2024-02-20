@@ -9,7 +9,7 @@ import Primo6 from "../zampariniOlim.jpeg";
 import Federico from "../Federico.jpg";
 import Io from "../ioEclaude.jpg";
 import Matteo from "../Matteo.jpg";
-import BenzAttack from "../BenzAttack.jpg";
+import BenzWin from "../BenzWin.jpg";
 // Simula un array di immagini
 const images = [
   { id: 1, url: Primo1 },
@@ -218,7 +218,7 @@ const ChampGallery = () => {
         <div className="row">
           <div className="card champ-card shadow">
             <img
-              src={BenzAttack}
+              src={BenzWin}
               alt="Io"
               className="card-img-top champ-img-top"
             />
