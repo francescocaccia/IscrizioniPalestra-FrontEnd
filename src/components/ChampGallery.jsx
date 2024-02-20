@@ -62,7 +62,10 @@ const ChampGallery = () => {
             allowfullscreen
           ></iframe>
           <p className="video-credits text-center">
-            Video realizzato da Manuel Brega
+            <a className="nav-link" href="https://www.manuelbrega.com/">
+              {" "}
+              Video realizzato da Manuel Brega
+            </a>
           </p>
         </div>
 
