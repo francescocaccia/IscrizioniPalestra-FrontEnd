@@ -9,7 +9,7 @@ import Primo6 from "../zampariniOlim.jpeg";
 import Federico from "../Federico.jpg";
 import Io from "../ioEclaude.jpg";
 import Matteo from "../Matteo.jpg";
-
+import BenzAttack from "../BenzAttack.jpg";
 // Simula un array di immagini
 const images = [
   { id: 1, url: Primo1 },
@@ -187,6 +187,41 @@ const ChampGallery = () => {
         <div className="row">
           <div className="card champ-card shadow">
             <img src={Matteo} alt="Io" className="card-img-top champ-img-top" />
+            {/* <div className="card-body">per aggiungere una descrizione alla foto</div> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="champ-gallery-container">
+        <h2 className="champ-gallery-title text-center mb-4">
+          Beniamino Stango - Nuove glorie Fabrianesi
+        </h2>{" "}
+        <p>
+          <p>
+            Beniamino Stango emerge come figura preminente nel mondo del
+            pugilato, si è rapidamente distinto per il suo stile unico e i
+            risultati eccellenti. La sua carriera è stata impreziosita da un
+            prestigioso bronzo ai campionati italiani universitari, dove si è
+            misurato con avversari del calibro di Roberto Bassi, testimoniando
+            la sua capacità di competere al più alto livello. La sua statura
+            longilinea e i colpi fulminei lo contraddistinguono in modo
+            significativo, facendolo risaltare come un pugile di rara abilità.
+            Queste caratteristiche lo rendono un avversario formidabile, la cui
+            agilità e rapidità gli consentono di dominare sul ring con
+            un'eleganza e una precisione che pochi possono eguagliare. Oltre al
+            talento naturale, Beniamino porta nella pugilistica fabrianese
+            un'etica di lavoro e una dedizione che ispirano compagni e aspiranti
+            pugili. La sua presenza arricchisce la società, portando nuove
+            prospettive e elevando il livello di competizione.
+          </p>
+        </p>
+        <div className="row">
+          <div className="card champ-card shadow">
+            <img
+              src={BenzAttack}
+              alt="Io"
+              className="card-img-top champ-img-top"
+            />
             {/* <div className="card-body">per aggiungere una descrizione alla foto</div> */}
           </div>
         </div>

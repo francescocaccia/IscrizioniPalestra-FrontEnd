@@ -9,6 +9,7 @@ import Favilla from "../FavillaWin.jpeg";
 import GiacomoWin from "../GiacoWin.jpeg";
 import Incrocio from "../incrocio.jpg";
 import Matteo from "../Matteo.jpg";
+import BenzArt from "../BenzArt.jpg";
 function MyCarousel() {
   return (
     <Carousel>
@@ -20,6 +21,9 @@ function MyCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={Incrocio} alt="Boxing Ring" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={BenzArt} alt="Boxing Ring" />
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={Federico} alt="Boxing Gloves" />
