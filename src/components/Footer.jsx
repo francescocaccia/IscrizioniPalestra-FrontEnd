@@ -4,6 +4,7 @@ import { GiItalia } from "react-icons/gi";
 import LogoAvis from "../Avis.png";
 import LogoFederazione from "../federazioneLogo.png";
 import coni from "../coni.png";
+import SaraPoke from "../SaraPokeTiAmo.png";
 
 function Footer() {
   return (
@@ -78,8 +79,8 @@ function Footer() {
                   <li className="nav-item">
                     <p className="m-0 nav-link">
                       Piazzale Don Ugo Petruio <br />
-                      Fabriano (AN) <br />
-                      Ex piscina comunale
+                      Ex piscina comunale <br />
+                      Fabriano (AN)
                     </p>
                   </li>
 
@@ -107,6 +108,19 @@ function Footer() {
                       style={{
                         width: "150px",
                         height: "80px",
+                      }}
+                    />
+                  </li>
+                  {/* Sponsor ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/}
+                  <li className="nav-item">
+                    <span className="m-0 nav-link">I nostri Sponsor</span>
+                    <img
+                      src={SaraPoke}
+                      alt="SaraPoke"
+                      className="SaraPoke"
+                      style={{
+                        width: "180px",
+                        height: "180px",
                       }}
                     />
                   </li>
