@@ -12,6 +12,7 @@ import IoeMat from "../IoeMatteo.jpeg";
 import KalAll from "../KalambayAllenatore.jpeg";
 import MatchMatteo from "../MatchMatteo.jpeg";
 import PrimoeMinchillo from "../PrimoeMinchillo.jpeg";
+import AlbertChamp from "../AlbertDodoli.jpg";
 
 function ParlanoDiNoi() {
   const articoli = [
@@ -62,6 +63,13 @@ function ParlanoDiNoi() {
       titolo: "Giacomo: Trionfo sul Ring",
       img: GiacomoWin,
       descrizione: "Giacomo vince in maniera spettacolare...",
+    },
+    {
+      id: 12,
+      titolo: "Albert Dodoli campione regionale Junior",
+      img: AlbertChamp,
+      descrizione:
+        "Albert  si è aggiudicato il titolo nella categoria di peso 60 chilogrammi",
     },
     {
       id: 7,
