@@ -71,6 +71,9 @@ const Orari = () => {
             ))}
           </tbody>
         </Table>
+        <p className="text-center text-light m-0 ">
+          Prossimamente verranno stabiliti nuovi orari...!
+        </p>
       </div>
       <Alert variant="success" className="mt-4">
         <h4 className="text-center">Lezioni Private</h4>
