@@ -57,13 +57,12 @@ const ChampGallery = () => {
             height="315"
             src="https://www.youtube.com/embed/ppJRPmDJRK8"
             title="Video di Primo Zamparini"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <p className="video-credits text-center">
             <a className="nav-link" href="https://www.manuelbrega.com/">
-              {" "}
               Video realizzato da Manuel Brega
             </a>
           </p>
