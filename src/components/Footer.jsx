@@ -6,7 +6,7 @@ import LogoFederazione from "../federazioneLogo.png";
 import coni from "../coni.png";
 import SaraPoke from "../SaraPokeTiAmo.png";
 import DaLara from "../DaLaraLogo.png";
-import Samo from "../samoLogo.png";
+import Samo from "../SamoLogo.png";
 function Footer() {
   return (
     <>
