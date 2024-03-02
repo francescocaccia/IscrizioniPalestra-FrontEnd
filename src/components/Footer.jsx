@@ -5,7 +5,8 @@ import LogoAvis from "../Avis.png";
 import LogoFederazione from "../federazioneLogo.png";
 import coni from "../coni.png";
 import SaraPoke from "../SaraPokeTiAmo.png";
-
+import DaLara from "../DaLaraLogo.png";
+import Samo from "../samoLogo.png";
 function Footer() {
   return (
     <>
@@ -123,10 +124,31 @@ function Footer() {
                         height: "180px",
                       }}
                     />
+                    <img
+                      src={DaLara}
+                      alt="DaLara"
+                      className="DaLara"
+                      style={{
+                        width: "120px",
+                        height: "90px",
+                      }}
+                    />
+                    {/* <img
+                      src={Samo}
+                      alt="Samo"
+                      className="Samo"
+                      style={{
+                        width: "180px",
+                        height: "180px",
+                        backgroundColor: "white",
+                        padding: "10px", // Aggiungi il padding per creare uno sfondo intorno all'immagine
+                      }}
+                    /> */}
                   </li>
                 </ul>
               </div>
 
+              {/* fine sponsor */}
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
