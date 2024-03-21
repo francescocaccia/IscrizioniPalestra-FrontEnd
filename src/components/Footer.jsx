@@ -7,6 +7,7 @@ import coni from "../coni.png";
 import SaraPoke from "../SaraPokeTiAmo.png";
 import DaLara from "../DaLaraLogo.png";
 import Samo from "../SamoLogo.png";
+import FSM from "../FSMLogo.jpg";
 function Footer() {
   return (
     <>
@@ -101,49 +102,62 @@ function Footer() {
               <div className="col-md-3">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <p className="m-0">Collaboriamo con</p>
-                    <img
-                      src={LogoAvis}
-                      alt="Logo avis"
-                      className="logoAvis"
-                      style={{
-                        width: "150px",
-                        height: "80px",
-                      }}
-                    />
+                    <div className="d-flex flex-column align-items-start">
+                      <p className="m-0">Collaboriamo con</p>
+                      <img
+                        src={LogoAvis}
+                        alt="Logo avis"
+                        className="logoAvis mb-2" // Aggiungi mb-2 per un po' di margine sotto l'immagine
+                        style={{
+                          width: "150px",
+                          height: "80px",
+                        }}
+                      />
+                    </div>
                   </li>
-                  {/* Sponsor ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/}
+                  {/* Sponsor */}
                   <li className="nav-item">
-                    <span className="m-0 nav-link">I nostri Sponsor</span>
-                    <img
-                      src={SaraPoke}
-                      alt="SaraPoke"
-                      className="SaraPoke"
-                      style={{
-                        width: "180px",
-                        height: "180px",
-                      }}
-                    />
-                    <img
-                      src={DaLara}
-                      alt="DaLara"
-                      className="DaLara"
-                      style={{
-                        width: "120px",
-                        height: "90px",
-                      }}
-                    />
-                    {/* <img
-                      src={Samo}
-                      alt="Samo"
-                      className="Samo"
-                      style={{
-                        width: "180px",
-                        height: "180px",
-                        backgroundColor: "white",
-                        padding: "10px", // Aggiungi il padding per creare uno sfondo intorno all'immagine
-                      }}
-                    /> */}
+                    <div className="d-flex flex-column align-items-start">
+                      <span className="m-0 nav-link">I nostri Sponsor</span>
+                      <img
+                        src={SaraPoke}
+                        alt="SaraPoke"
+                        className="SaraPoke mb-2"
+                        style={{
+                          width: "180px",
+                          height: "180px",
+                        }}
+                      />
+                      <img
+                        src={DaLara}
+                        alt="DaLara"
+                        className="DaLara mb-2"
+                        style={{
+                          width: "120px",
+                          height: "90px",
+                        }}
+                      />
+                      <img
+                        src={FSM}
+                        alt="FSM"
+                        className="FSM mb-2"
+                        style={{
+                          width: "120px",
+                          height: "90px",
+                        }}
+                      />
+                      <img
+                        src={Samo}
+                        alt="Samo"
+                        className="Samo mb-2"
+                        style={{
+                          width: "130px",
+                          height: "130px",
+                          backgroundColor: "white",
+                          padding: "10px",
+                        }}
+                      />
+                    </div>
                   </li>
                 </ul>
               </div>
