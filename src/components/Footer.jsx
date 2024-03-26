@@ -8,6 +8,8 @@ import SaraPoke from "../SaraPokeTiAmo.png";
 import DaLara from "../DaLaraLogo.png";
 import Samo from "../SamoLogo.png";
 import FSM from "../FSMLogo.jpg";
+import RadioGold from "../RadioGold.jpg";
+
 function Footer() {
   return (
     <>
@@ -106,6 +108,15 @@ function Footer() {
                       <p className="m-0">Collaboriamo con</p>
                       <img
                         src={LogoAvis}
+                        alt="Logo avis"
+                        className="logoAvis mb-2" // Aggiungi mb-2 per un po' di margine sotto l'immagine
+                        style={{
+                          width: "150px",
+                          height: "80px",
+                        }}
+                      />
+                      <img
+                        src={RadioGold}
                         alt="Logo avis"
                         className="logoAvis mb-2" // Aggiungi mb-2 per un po' di margine sotto l'immagine
                         style={{
