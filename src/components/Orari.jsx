@@ -5,7 +5,20 @@ import volantinorari from "../volantinorari.jpg";
 const Orari = () => {
   return (
     <Container className="orari-container mt-5">
-      <Card.Img variant="top" src={volantinorari} alt="Orari delle lezioni" />
+      <div className="d-flex justify-content-center">
+        <Card.Img
+          variant="top"
+          src={volantinorari}
+          alt="Orari delle lezioni"
+          style={{
+            maxWidth: "50%",
+            height: "auto",
+            backgroundColor: "#f8f9fa", // Aggiungi uno sfondo grigio chiaro (opzionale)
+            padding: "10px", // Aggiungi padding intorno all'immagine (opzionale)
+          }}
+        />
+      </div>
+
       <Alert variant="success" className="mt-4">
         <h4 className="text-center">Lezioni Private</h4>
         <p className="text-center">
