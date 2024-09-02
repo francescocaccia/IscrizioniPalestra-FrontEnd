@@ -18,8 +18,20 @@ function Home() {
           <MyCarousel />
         </span>
         <div className="mt-3">
-          <SiInstagram className="fs-1 me-3 text-warning" />
-          <SiFacebook className="fs-1 text-primary" />
+          <a
+            href="https://www.instagram.com/pugilistica.fabrianese/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiInstagram className="fs-1 me-3 text-warning" />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61557709285125"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiFacebook className="fs-1 text-primary" />
+          </a>
         </div>
         <h2 className="mt-3">Chi siamo</h2>
         <h3 className="text-white my-4 styled-text">

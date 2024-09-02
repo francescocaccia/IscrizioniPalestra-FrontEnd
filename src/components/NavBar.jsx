@@ -47,8 +47,8 @@ const NavBar = () => {
               />
             </Navbar.Brand>
           </Nav.Item>
-          <Nav.Link as={Link} to="/GymBoxe">
-            <span>Gym Boxe</span>
+          <Nav.Link as={Link} to="/News">
+            <span>News</span>
           </Nav.Link>
           <Nav.Link as={Link} to="/noi">
             <span>Parlano di Noi</span>

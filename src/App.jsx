@@ -12,7 +12,7 @@ import Orari from "./components/Orari";
 import Footer from "./components/Footer";
 import ChampGallery from "./components/ChampGallery";
 import ParlanoDiNoi from "./components/ParlanoDiNoi";
-import GymBoxe from "./components/GymBoxe";
+import News from "./components/News";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           <Route path="/editAtleta/:id" element={<EditAtleta />} />
           <Route path="/orari" element={<Orari />} />
           <Route path="/noi" element={<ParlanoDiNoi />} />
-          <Route path="/GymBoxe" element={<GymBoxe />} />
+          <Route path="/News" element={<News />} />
         </Routes>
         <Footer />
       </Router>
