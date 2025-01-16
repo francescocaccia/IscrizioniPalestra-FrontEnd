@@ -1,6 +1,6 @@
 import React from "react";
 import { Alert, Card, Container } from "react-bootstrap";
-import volantinorari from "../volantinorari.jpg";
+import VolantinoBack from "../VolantinoBack.jpg";
 
 const Orari = () => {
   return (
@@ -8,7 +8,7 @@ const Orari = () => {
       <div className="d-flex justify-content-center">
         <Card.Img
           variant="top"
-          src={volantinorari}
+          src={VolantinoBack}
           alt="Orari delle lezioni"
           style={{
             maxWidth: "50%",
