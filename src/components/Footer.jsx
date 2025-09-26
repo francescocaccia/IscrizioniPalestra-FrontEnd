@@ -140,9 +140,9 @@ function Footer() {
                   </li>
                   {/* Sponsor */}
                   <li className="nav-item">
-                    {/* <div className="d-flex flex-column align-items-start">
+                    <div className="d-flex flex-column align-items-start">
                       <span className="m-0 nav-link">I nostri Sponsor</span>
-                      <img
+                      {/* <img
                         src={SaraPoke}
                         alt="SaraPoke"
                         className="SaraPoke mb-2"
