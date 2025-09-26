@@ -140,7 +140,7 @@ function Footer() {
                   </li>
                   {/* Sponsor */}
                   <li className="nav-item">
-                    <div className="d-flex flex-column align-items-start">
+                    {/* <div className="d-flex flex-column align-items-start">
                       <span className="m-0 nav-link">I nostri Sponsor</span>
                       <img
                         src={SaraPoke}
@@ -150,8 +150,8 @@ function Footer() {
                           width: "180px",
                           height: "180px",
                         }}
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src={DaLara}
                         alt="DaLara"
                         className="DaLara mb-2"
@@ -159,7 +159,7 @@ function Footer() {
                           width: "120px",
                           height: "90px",
                         }}
-                      />
+                      /> */}
                       <img
                         src={FSM}
                         alt="FSM"
